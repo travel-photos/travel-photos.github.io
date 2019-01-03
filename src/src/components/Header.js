@@ -25,7 +25,7 @@ class Header extends React.Component{
             textDecoration: 'none'
           }}
         >
-          萝卜摄影工作室
+          Gorgear & Lily Travel Photos
         </Link>
         <span style={{
           letterSpacing: 8.6,

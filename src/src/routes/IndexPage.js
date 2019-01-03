@@ -33,6 +33,9 @@ class IndexPage extends React.Component{
         <div style={{ overflow: 'hidden'}}>
           {
             Object.keys(folders).map(key => {
+              if(!key){
+                return null;
+              }
               return (
                 <div 
                   className={ "col-md-6 col-lg-4 col-sm-12 col-xs-12 "  + styles.container}
