@@ -25,14 +25,14 @@ class Header extends React.Component{
             textDecoration: 'none'
           }}
         >
-          Gorgear & Lily Travel Photos
+          旅行摄影集
         </Link>
         <span style={{
           letterSpacing: 8.6,
           fontFamily: 'cursive',
           fontSize: 15,
           opacity: 0.6
-        }}>LOBO Photography</span>
+        }}>Gorgear & Lily Travel Photos</span>
 
         {
           subtitle && (
