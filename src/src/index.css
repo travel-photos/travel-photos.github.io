@@ -1,0 +1,13 @@
+
+html, body{
+  height: 100%;
+  background: #0e0d0d;
+}
+
+:global #root{
+  height: 100%;
+}
+
+:global .left{
+  float: left;
+}

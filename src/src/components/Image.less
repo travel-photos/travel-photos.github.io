@@ -1,0 +1,56 @@
+.container{
+  cursor: zoom-in;
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+}
+
+
+.container:hover .mask{
+  opacity: 1;
+}
+
+.mask{
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.plus{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+
+.bigPic{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  cursor: zoom-out;
+  overflow: auto;
+}
+
+.bigPic img{
+  max-width: 90%;
+  max-height: 90%;
+  line-height: 100%;
+  padding-bottom: 20px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

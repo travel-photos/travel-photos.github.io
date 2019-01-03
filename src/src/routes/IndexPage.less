@@ -1,0 +1,45 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  background: rgb(14, 13, 13);
+  height: 100%;
+}
+
+.mask{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0, 0.6);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.button{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: lighter;
+  height: 35px;
+  line-height: 35px;
+  letter-spacing: 3px;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover{
+  background: white;
+  color: #333;
+}
+
+.container:hover .mask{
+  opacity: 1;
+}
